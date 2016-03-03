@@ -1,0 +1,23 @@
+{
+  "name": "vazquecm.github.io",
+  "homepage": "https://github.com/vazquecm/vazquecm.github.io",
+  "authors": [
+    "Carmen Vazquez-Marin <vazquecm@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.1",
+    "Materialize": "materialize#^0.97.5"
+  }
+}
