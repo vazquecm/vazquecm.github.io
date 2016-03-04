@@ -12,15 +12,28 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     20px;
 
-$text-color:       #111;
+$text-color:       #663300;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #CC6600;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color:       #9c9c9c;
+$grey-color-light: lighten($grey-color, 10%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+
+// My additions to styling
+$font-one: 'Courier', sans-serif;
+$font-two: 'Courier', cursive;
+$font-three: 'Open Sans', sans-serif;
+
+$color-text: #FFE5CC;
+$color-two: #FFCC99;
+$color-three: #663300;
+$color-main: rgb(0,0,0);
+
+
 
 // Width of the content area
 $content-width:    800px;
