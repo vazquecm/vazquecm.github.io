@@ -23,16 +23,15 @@ $grey-color-light: lighten($grey-color, 10%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 
-// My additions to styling
-$font-one: 'Courier', sans-serif;
+/////////// My additions to styling //////////////
+$font-one: 'Courier', italic;
 $font-two: 'Courier', cursive;
-$font-three: 'Open Sans', sans-serif;
+$font-three: 'Garamond', sans-serif;
 
-$color-text: #FFE5CC;
-$color-two: #FFCC99;
-$color-three: #663300;
-$color-main: rgb(0,0,0);
-
+$color-text: #cc9966;///  about me boxes
+$color-two: #cc9966;////  project box
+$color-three: #cc9966;//  nav bar
+$color-main: #6b3504;///  my name
 
 
 // Width of the content area
