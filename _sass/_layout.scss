@@ -91,6 +91,7 @@
     font-family: 'Garamond';
     font-style: italic;
     font-weight: bold;
+
     .content {
         height: 150px;
 
@@ -138,18 +139,19 @@
         letter-spacing: 3px;
         font-size: 25px;
         line-height: 75%;
-        margin: 0 10px auto;
+        margin: 30px 50px;
+        // margin: 50px 10px auto;
     }
-    p {
-        padding-top: 125px;
-        width: 100%;
-        box-sizing: border-box;
-        text-align: center;
-        a {
-            padding: 0 10px;
-            color: $color-main;
-        }
-    }
+    // p {
+    //     padding-top: 125px;
+    //     width: 100%;
+    //     box-sizing: border-box;
+    //     text-align: center;
+    //     a {
+    //         padding: 0 10px;
+    //         color: $color-main;
+    //     }
+    // }
 }
 
 /**
