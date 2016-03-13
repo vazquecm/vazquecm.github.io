@@ -11,7 +11,6 @@
 .nav-wrapper a {
     background-color: $color-three;
 }
-
 .brand-logo {
     font-family: $font-one;
     text-decoration: none;
@@ -28,22 +27,19 @@
         color: $background-color;
     }
 }
-
 @media (min-width: 992px) {
     .brand-logo {
         margin: 0 0 0 5%;
     }
     #section-cover {
-        height: 695px;
+        height: 500px;
     }
 }
-
 
 /**
  * Section Content
  */
 .content {
-    z-index: 2;
     text-align: center;
 }
 .content div {
@@ -56,6 +52,7 @@
     font-family: $font-three;
     padding: 15px;
 }
+
 /**
  * Section Header
  */
@@ -65,24 +62,26 @@
     font-family: $font-one;
     text-transform: uppercase;
     color: $color-three;
+    text-align: center;
 }
 #section-details h2 {
     letter-spacing: 3px;
     font-family: $font-one;
     text-transform: uppercase;
     color: $color-three;
+    text-align: center;
 }
 #section-contact h2 {
     letter-spacing: 2px;
     font-family: $font-one;
     text-transform: uppercase;
     color: $color-three;
+    text-align: center;
 }
+
 /**
  * Section Cover
  */
-
-
 #section-cover {
     box-sizing: border-box;
     padding-top: 75px;
@@ -111,13 +110,8 @@
         letter-spacing: 3px;
         display: block;
         padding-bottom: 0;
-        .hi {
-            font-size: 110px;
-        }
-        .there {
-            font-size: 28px;
-        }
     }
+
     h2 {
         padding: 10px;
         color: $color-main;
@@ -140,18 +134,7 @@
         font-size: 25px;
         line-height: 75%;
         margin: 30px 50px;
-        // margin: 50px 10px auto;
     }
-    // p {
-    //     padding-top: 125px;
-    //     width: 100%;
-    //     box-sizing: border-box;
-    //     text-align: center;
-    //     a {
-    //         padding: 0 10px;
-    //         color: $color-main;
-    //     }
-    // }
 }
 
 /**
@@ -161,26 +144,37 @@
     div.collapsible-header {
         padding: 15px;
         background-color: $color-two;
-        font-size: 16px;
+        font-size: 18px;
         color: $color-main;
         font-family: $font-three;
+        text-align: center;
     }
+    box-sizing: border-box;
+    padding-top: 75px;
+    z-index: 3;
+    // font-style: italic;
+    // font-weight: bold;
     a {
         font-family: $font-two;
         font-size: 24px;
         text-decoration: none;
     }
 }
+
 /**
  * Section Selected Project Contact Box
  */
 .boxy {
-    margin: 0 0 0 75%;
+    margin: 0 0 0 25%;
     padding: 0;
     display: block;
     text-align: center;
     width: 220px;
     height: 220px;
+    float: left;
+    position: relative;
+    top: -440px;
+    right: -220px
 }
 .boxy:after,
 .inner-item:before {
@@ -274,12 +268,14 @@
 .inner-item:hover .sub p {
     opacity: 1;
 }
+
 /**
  * Section Details
  */
 #section-details {
     div.card {
         padding: 10px;
+        margin-bottom: 0;
         div.card-image {
             padding: 0;
         }
@@ -291,41 +287,29 @@
         span.detail-card {
             color: $color-main;
             font-family: $font-three;
-            font-size: 16px;
+            font-size: 14px;
         }
     }
     div.row {
         padding-top: 10px;
+        margin-bottom: 0;
+        margin: 5px;
         img {
             padding: 10px;
         }
     }
-    div.carousel {
-        height: 230px;
-    }
+
 }
+
 /**
  * Section Contact
  */
 #section-contact {
-    div.row {
-        padding-top: 10px;
-        div.card {
-            padding: 10px;
-            background-color:  #fff;
-            div.card-content {
-                padding: 5px 0 10px 0;
-                text-align: center;
-            }
-            div.card-image {
-             padding: 10px;
-            }
-        }
-    }
     div.links {
         border-radius: 3px;
         margin: 10px;
         padding: 10px;
+        text-align: center;
         a {
             color: $color-main;
         }
@@ -347,15 +331,6 @@
     }
 }
 
-/**
- * Site footer
- */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-    background-color: $color-three;
-    max-height: 25px;
-}
 /**
  * Section Resize
  */
