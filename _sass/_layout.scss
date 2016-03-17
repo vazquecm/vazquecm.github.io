@@ -11,13 +11,13 @@
 .nav-wrapper a {
     background-color: $color-three;
 }
-.brand-logo {
-    font-family: $font-one;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-style: italic;
-}
+// .brand-logo {
+//     font-family: $font-one;
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     letter-spacing: 3px;
+//     font-style: italic;
+// }
 .button-collapse {
     margin-left: 10px;
 }
@@ -159,6 +159,9 @@
         font-size: 24px;
         text-decoration: none;
     }
+    p {
+        text-align: center;
+    }
 }
 
 /**
@@ -267,6 +270,9 @@
 }
 .inner-item:hover .sub p {
     opacity: 1;
+}
+img {
+    display: center;
 }
 
 /**
